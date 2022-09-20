@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+
+<html lang="es">
+
+    <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width">
+    <link rel="stylesheet" href="styles.css">
+    <title>Encriptador</title>
+</head>
+<body>
+    <header>
+        <img src="imagenes/vector3.png" alt="Logo de Alura">
+    </header>
+    <main>
+        <section>
+            <textarea class="IngreseTexto" cols="50" rows="14" placeholder="Ingrese el texto aquí"></textarea>
+            <div class="Boton">
+                <button class="Encriptar" onclick="btnEncriptar()">
+                    Encriptar
+                </button>   
+                <button class="Desencriptar" onclick="btnDesencriptar()">
+                    Desencriptar
+                </button>
+            </div>
+        </section>
+        <section>
+            <textarea class="MensajeIngresado" cols="40" rows="14" placeholder="Ningun mensaje fue encontrado"></textarea>
+            <button class="CopiarMensaje" onclick="copiar()">Copiar</button>
+        </section>
+        <section class="pdp">
+            <img src="Imagenes/simbolo1.png">
+            <p class="Informacion">Solo letras minúsculas y sin acentos</p>
+        </section>
+
+ </main>
+    <script src="script.js"></script>
+    
+</body>
+<footer>
+    <img src="Imagenes/footerprueba.png">
+    <p>Maria Belen Maccarini</p>
+
+</footer>
+
+</html>
